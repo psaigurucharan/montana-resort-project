@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESORT</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body>
+   <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top navtop">
+  <div class="container-fluid">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="https://images.creativemarket.com/0.1.0/ps/12405556/1820/1214/m1/fpnw/wm0/mt-monogram-logo-preview-.jpg?1652805156&s=5b0f7bc8f1fe3651ff7d8a3ad6973bb4"
+      class="logo">
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Left Menu -->
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Rooms
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#rooms">Standard</a></li>
+            <li><a class="dropdown-item" href="#rooms">Deluxe</a></li>
+            <li><a class="dropdown-item" href="#rooms">Couple</a></li>
+            <li><a class="dropdown-item" href="#rooms">Studio</a></li>
+            <li><a class="dropdown-item" href="#rooms">Suit</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Center Logo -->
+      <div class="center-logo text-center">
+        <img src="https://cdn-icons-png.flaticon.com/128/17927/17927273.png" class="leaf">
+
+        <div>
+          <h1>MONTANA</h1>
+          <p>Resort & Spa</p>
+        </div>
+
+        <img src="https://cdn-icons-png.flaticon.com/128/17927/17927273.png" class="leaf">
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter">
+        <h6>Newsletter</h6>
+        <div class="d-flex">
+          <button class="btn btn-primary me-2">Sign In</button>
+          <input type="text" class="form-control" placeholder="Enter Email">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<!--slidder-->
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="background-color: transparent;">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="0">
+      <img src="https://images.pexels.com/photos/547494/pexels-photo-547494.jpeg" alt="..." style="height: 650px; width: 100%;">
+        <div class="carousel-caption text-start" style="margin-bottom: 250px; margin-left: -40px;">
+        <h1 style="font-size: 60px;">MONTANA RESORT</h1>
+        <p>UNLOCK TO ENJOY THE VIEW OF MARTINE</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="0">
+      <img src="https://images.pexels.com/photos/17023029/pexels-photo-17023029.jpeg" alt="..." style="height: 650px; width: 100%;">
+        <div class="carousel-caption mb-3">
+        <h1 style="font-size: 60px;">ENJOY THE BEAUTY</h1>
+        <p>A BEST PLACE TO STAY HERE</p>
+      </div>
+    </div>
+    <div class="carousel-item"  data-bs-interval="0">
+      <img src="https://cdn.mos.cms.futurecdn.net/LtR8ijUW28XDjof7Q5vQKU-1280-80.jpg" alt="..." style="height: 650px; width: 100%;">
+        <div class="carousel-caption text-end" style="margin-bottom: 300px; margin-right: -30px;">
+        <h1 style="font-size: 60px;">IN HILLY AREAS</h1>
+        <p>BREATHTAKING VIEWS AND AMENITIES</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!--ABOUT-->
+<div id="about">
+<div class="container mt-5">
+    <div class="row mt-3">
+        <div class="col-lg-6" style="margin-top: 55px; margin-bottom: 80px; padding-left: 20px; word-spacing: 8px; line-height: 5cap;">
+            <p style="color: rgb(242, 24, 21); font-size: large;">About Us</p>
+            <h1>A Luxuries Hotel<br> With Nature</h1>
+            <p class="mt-4 text-body-secondary" style="line-height: 25px;">Suscipit libero pretium nullam potenti. Interdum, blanditphasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. Dapibus lorem feugiatfacilisi faucibus et. Rhoncus</p>
+            <span><a href="#">Learn More</a></span>
+         </div>
+        <div class="col-lg-3  mb-5">
+            <img src="https://plus.unsplash.com/premium_photo-1722349517542-75dac5dab7d6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8" class="img1" style="height: 380px; width: 100%; border: 10px solid rgba(179, 163, 163, 0.996);">
+            </div>
+            <div class="col-lg-3 mt-5 mb-5" style="padding-top: 20px;">
+            <img src="https://images.unsplash.com/photo-1712595710512-fe0c7633be1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGx1eGFyaWVzJTIwaG90ZWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww" height="380px" width="100%"  style="border: 10px solid rgba(179, 163, 163, 0.996);">
+        </div>
+    </div>
+   
+</div>
+</div>
+
+
+
+<!--MY VILLAS-->
+<div class="container-fluid text-center mb-5" style="margin-top: 0px; background-color: #f1f2f6;">
+    <div class="row">
+        <div class="col-12">
+            <h1>Why Villas</h1>
+            <p>In the world of upscale living, villas are symbols of luxury and sophisticated living. The appeal of these spacious<br> and elegant residences goes beyond their grand exteriors, they offer a lifestyle that seamlessly blends<br> comfort, privacy, and exclusivity</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 20px; margin-bottom: 20px; text-align: center;">
+    <div class="row">
+        <div class="col-lg-3 pt-3 pe-3 restaurant">
+            <img src="https://image.shutterstock.com/image-vector/grill-menu-card-design-template-260nw-94499359.jpg" height="60px" style="border-radius: 50%;">
+            <h3>Restaurant</h3>
+            <p>A restaurant is an establishment that prepares and serves food and drinks to customers</p>
+        </div>
+        <div class="col-lg-3 pt-3 pe-3" style="background-color: gainsboro;">
+            <img src="https://cdn-icons-png.flaticon.com/128/639/639365.png" style="height: 60px;">
+            <h3>Low Price</h3>
+            <p>The towels felt quite basic (not luxurious), but deliver good quality at a low price</p>
+        </div>
+        <div class="col-lg-3 pt-3 pe-3 restaurant">
+            <img src="https://cdn-icons-png.flaticon.com/128/2592/2592258.png" style="height: 60px;">
+            <h3>Security Zone</h3>
+            <p>Security zones are logical entities to which one or more interfaces are bound.</p>
+        </div>
+        <div class="col-lg-3 pt-3 pe-3 restaurant">
+            <img src="https://cdn-icons-png.flaticon.com/128/3774/3774278.png" style="height: 60px;">
+            <h3>Pick Up</h3>
+            <p>The pickup point for the long-distance coaches is now in the new bus station.</p>
+        </div>
+    </div><br>
+</div>
+
+
+
+<!--ROOMS-->
+<div id="rooms">
+<div class="container-fluid" style="background-color: #ffcccc;">
+    <div class="row">
+        <div class="col-12 text-center p-4">
+            <small style="font-size: 20px; color: rgb(57, 57, 240);">Featured Rooms</small>
+            <h1>Choose A Better Rooms</h1>
+        </div>
+    </div>
+</div>
+
+<!--rooms-->
+<div class="container-fluid">
+    <div class="row">
+        
+        
+        <div class="col-lg-6 mt-2 pic1">
+            <div class="card text-bg-dark">
+  <img src="https://th.bing.com/th/id/R.0d5c83cb0f9c1e8e34312f823f1f4b7b?rik=XwZEU8wTuqY8oA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-DIW_2lFWQIM%2fUCtxeMZWOLI%2fAAAAAAAAFk4%2fRUjNX6h2rms%2fs1600%2fPicture%2b10.png&ehk=bPu3gdmRDr2BnTbEsKUYH%2fXjHIZdv8xiRiyqxGPCous%3d&risl=&pid=ImgRaw&r=0" class="img-fluid" alt="..." style="height: 400px;">
+  <div class="card-img-overlay" style="margin-left: 30px;">
+    <p style="margin-top: 260px;">From $250/night</p>
+    <h4 class="card-title" style="margin-top: -20px;">Superior Room</h4>
+    <div class="room"><a href="#" style="margin-top: 50px; color: white; font-size: larger; padding-bottom: 50px;"><b>Book Now</b></a></div>
+  </div>
+</div>
+        </div>
+
+        <div class="col-lg-6 mt-2 pic1">
+            <div class="card text-bg-dark">
+  <img src="https://homewallartdecor.com/wp-content/uploads/2024/02/Default_Colorful_Opulent_Moroccan_themed_master_bedroom_that_i_0-1024x768.jpg" class="img-fluid" alt="..." style="height: 400px;">
+ <div class="card-img-overlay" style="margin-left: 30px;">
+    <p style="margin-top: 260px;">From $250/night</p>
+    <h4 class="card-title" style="margin-top: -20px;">Couple Room</h4>
+    <div class="room"><a href="#" style="margin-top: 50px; color: white; font-size: larger; padding-bottom: 50px;"><b>Book Now</b></a></div>
+  </div>
+</div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!---->
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-6 mt-2 pic1">
+            <div class="card text-bg-dark">
+  <img src="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1624973998/kckoygb6xwt5cnti0m5p.jpg" class="img-fluid" alt="..." style="height: 400px;">
+<div class="card-img-overlay" style="margin-left: 30px;">
+    <p style="margin-top: 260px;">From $250/night</p>
+    <h4 class="card-title" style="margin-top: -20px;">Family Room</h4>
+    <div class="room"><a href="#" style="margin-top: 50px; color: white; font-size: larger; padding-bottom: 50px;"><b>Book Now</b></a></div>
+  </div>
+</div>
+        </div>
+
+        <div class="col-lg-6 mt-2 pic1">
+            <div class="card text-bg-dark">
+  <img src="https://media.istockphoto.com/id/154953122/photo/modern-villa-living-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=TaVBb1ZfyL0TsKHD67dtvFdnKA06nk-5b1-FDgTOEMA=" class="img-fluid" alt="..." style="height: 400px;">
+<div class="card-img-overlay" style="margin-left: 30px;">
+    <p style="margin-top: 260px;">From $250/night</p>
+    <h4 class="card-title" style="margin-top: -20px;">Signature Room</h4>
+    <div class="room"><a href="#" style="margin-top: 50px; color: white; font-size: larger; padding-bottom: 50px;"><b>Book Now</b></a></div>
+  </div>
+</div>
+        </div>
+        
+    </div>
+</div>
+</div><br>
+
+
+<!--facilities-->
+<div id="gallery">
+<div class="facility pt-4 pb-4"  >
+<div class="container-fluid text-center" data-aos="fade-up"
+     data-aos-duration="3000">
+    <div class="row">
+        <div class="col-12">
+            <h1>We Providing Other Facilities</h1>
+        </div>
+    </div>
+</div>
+
+
+<div class="facility"  >
+<div class="container mt-3" style="display: inline-block; display: flex; text-align: center;">
+    <div class="row">
+        <div class="col-lg-12 mt-3">
+             <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-thumbnail" data-aos="fade-up"
+     data-aos-duration="3000" alt="..." height="300px" width="350px">
+              <img src="https://images.unsplash.com/photo-1568822617270-2c1579f8dfe2?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-thumbnail" data-aos="fade-up"
+     data-aos-duration="3000" alt="..."height="300px" width="350px">
+               <img src="https://images.unsplash.com/photo-1586156938613-769b0353c8fc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-thumbnail" data-aos="fade-up"
+     data-aos-duration="3000" alt="..." height="300px" width="350px">
+               </div>
+
+               <div class="" >
+                <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D" class="img-thumbnail" data-aos="fade-up"
+     data-aos-duration="3000" alt="..." height="300px" width="350px">
+                 <img src="https://media.istockphoto.com/id/153495664/photo/kids-playing.jpg?s=612x612&w=0&k=20&c=4wg_7JHQcK6DNU3Jn4GVjs1z_omcbmeL-s3tiIFXoPU=" class="img-thumbnail" data-aos="fade-up"
+     data-aos-duration="3000" alt="..." height="300px" width="350px">
+                </div>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<!-- <div class="container text-center">
+    <div class="row">
+
+        <div class="col-3">
+            <img src="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1624973998/kckoygb6xwt5cnti0m5p.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="col-3">
+            <img src="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1624973998/kckoygb6xwt5cnti0m5p.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="col-3">
+            <img src="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1624973998/kckoygb6xwt5cnti0m5p.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="col-3">
+            <img src="https://res.cloudinary.com/traveltripperweb/image/upload/c_limit,f_auto,h_2500,q_auto,w_2500/v1624973998/kckoygb6xwt5cnti0m5p.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+    </div>
+</div> -->
+
+
+
+<!--reviews-->
+<div class="container text-center" data-aos="fade-up">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <h1>Our Guest Love Us</h1>
+            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container text-center " style="margin-top: -20px;">
+    <div class="row mt-0">
+
+        <div class="col-lg-4 g-5 pb-4" data-aos="flip-left" >
+            <img src="https://media.istockphoto.com/id/2172316440/photo/parents-playing-with-daughter-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=ADCAcbMZaeVLFb-5qY0C2l5jKM1VqZw1t9EIAyaVRTo=" class="rounded-circle round" alt="..." height="165px" width="165px" ><br>
+            <div class="review" >
+            <div class="row mt-4"data-aos="flip-left" style="background-color: rgb(231, 208, 208); border-radius: 10px; padding: 10px;">
+            <div class="col-12 text-center">
+            <h3>Jason Dono</h3>
+            <small style="color: red;"><i>Russia</i></small><br>   
+            <img src="https://media.istockphoto.com/id/1253306966/vector/five-golden-stars-rating-quality-assessment.jpg?s=612x612&w=0&k=20&c=J_M7XhBdjm0ebFjRVuMedfEaSxd5-N2ixqagWVFftW4=" height="40px"><br><br>
+            <p>“I had a terrible experience<br> with customer service, they <br>were very unhelpful.”</p>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 g-5 pb-4" data-aos="flip-left">
+            <img src="https://plus.unsplash.com/premium_photo-1682090384096-8ddc0d8d4efe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2VsZmllfGVufDB8fDB8fHww" class="rounded-circle round" alt="..."  height="165px" width="165px"><br>
+              <div class="review">
+            <div class="row mt-4"data-aos="flip-left" style="background-color: rgb(231, 208, 208); border-radius: 10px; padding: 10px;">
+            <div class="col-12 text-center">
+            <h3>Daniel Die</h3>
+            <small  style="color: red;"><i>France</i></small><br> 
+            <img src="https://media.istockphoto.com/id/1253306966/vector/five-golden-stars-rating-quality-assessment.jpg?s=612x612&w=0&k=20&c=J_M7XhBdjm0ebFjRVuMedfEaSxd5-N2ixqagWVFftW4=" height="40px"><br><br>
+            <p>“I had a terrible experience<br> with customer service, they<br> were very unhelpful.”</p>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 g-5 pb-4" data-aos="flip-left">
+            <img src="https://images.unsplash.com/photo-1618863898618-c5f5292ab256?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHNlbGZpZXxlbnwwfHwwfHx8MA%3D%3D" class="rounded-circle round" alt="..." height="165px" width="165px"><br>
+             <div class="review"> 
+            <div class="row mt-4"data-aos="flip-left" style="background-color: rgb(231, 208, 208); border-radius: 10px; padding: 10px;">
+            <div class="col-12 text-center">
+            <h3>Mathew</h3>
+            <small style="color: red;"><i>Germany</i></small><br> 
+            <img src="https://media.istockphoto.com/id/1253306966/vector/five-golden-stars-rating-quality-assessment.jpg?s=612x612&w=0&k=20&c=J_M7XhBdjm0ebFjRVuMedfEaSxd5-N2ixqagWVFftW4=" height="40px"><br><br>
+            <p>“I had a terrible experience <br>with customer service, they <br>were very unhelpful.”</p>
+            </div>
+            </div>
+            </div>
+        </div>
+
+    </div><br><br>
+</div>
+
+
+<!--autoplay video-->
+<div>
+      <video src="https://media.istockphoto.com/id/1335178165/video/interior-empty-modern-loft-office-open-space-modern-office-footage-modern-open-concept-lobby.mp4?s=mp4-640x640-is&k=20&c=sOvbRczksJH4ZJ2tpozM4O5GuGIbm7nFcAShSz7QL0o=" loop autoplay class="d-block" alt="..." height="600px" width="100%"> </video>
+</div>
+
+<br><br>   
+
+
+<!-- https://media.istockphoto.com/id/1253306966/vector/five-golden-stars-rating-quality-assessment.jpg?s=612x612&w=0&k=20&c=J_M7XhBdjm0ebFjRVuMedfEaSxd5-N2ixqagWVFftW4= -->
+
+
+<!--form-->
+<div class="bg-body-tertiary p-4 mb-5">
+<div class="container-fluid">
+<div class="container bg-body-tertiary mb-4">
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <H1>BOOKING</H1>
+        </div>
+    </div>
+
+    <div class="row ps-1">
+        <form class="row g-3 ms-0.99 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationCustom01" value="" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Middle name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 mt-4">
+            <div style="justify-content: space-between; display: flex;border: 1px solid  rgb(230, 220, 220);background-color: white; border-radius: 5px;padding: 5px;">
+            <label class="ms-2">Check-in-Date</label>
+            <input type="date"/>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-4"> <div style="justify-content: space-between; display: flex;border: 1px solid rgb(230, 220, 220);background-color: white; border-radius: 5px; padding: 5px;">
+            <label class="ms-2">Check-out-Date</label>
+            <input type="date"/>
+            </div></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 mt-4">
+                       <div class="col-md">
+    <select id="inputState" class="form-select">
+       <option selected>Adults</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">More..</option>
+      </select>
+  </div>
+        </div>
+        <div class="col-lg-6 mt-4">
+             <div class="col-md">
+    <select id="inputState" class="form-select">
+       <option selected>Childrens</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="3">Four</option>
+        <option value="3">More..</option>
+      </select>
+  </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <select class="form-select" aria-label="Default select example">
+  <option selected>Room Type</option>
+  <option value="1">Luxaries Room</option>
+  <option value="2">Deluxe room</option>
+  <option value="3">Signature Room</option>
+  <option value="3">Couple Room</option>
+</select>
+        </div>
+    </div>
+
+    <div class="row text-center mt-4">
+        <div class="col-lg-12">
+           <a href="#"> <div class="d-grid gap-2 col-12 mx-auto">
+   <button class="btn btn-primary" type="button">BOOK NOW</button></a>
+</div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
+
+
+<!--footer 1-->
+<div id="contact">
+<div class="container-fluid p-5 bg-dark border-bottom border-body" data-bs-theme="light-dark">
+    <div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-4 mb-2 resort">
+            <h1 style="color: white; margin-bottom: 20px; margin-top: -10px;">RESORT</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.9607224205165!2d-71.58861071471209!3d-40.80685689758352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610be1a73f9124b%3A0x5e159b0818e4d23e!2sMonta%C3%B1a%20Resort!5e0!3m2!1sen!2sin!4v1751180219105!5m2!1sen!2sin" width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+           <div class="col-lg-2" style="margin-top: 40px;">
+            <h4 style="color: white; margin-bottom: 28px; margin-top: 30px;">LINKS</h4>
+            <p><a style="color: gray; text-decoration: none;" href="#">Home</a></p>
+             <p><a style="color: gray; text-decoration: none;" href="#">About Us</a></p>
+             <p><a style="color: gray; text-decoration: none;" href="#">Gallery</a></p>
+              <p><a style="color: gray; text-decoration: none;" href="#">Services</a></p>
+               <p><a style="color: gray; text-decoration: none;" href="#">Contact Us</a></p>
+           </div>
+
+              <div class="col-lg-3"  style="margin-top: 40px;">
+                <h4 style="color: white; margin-bottom: 30px; margin-top: 30px;">CONTACT INFO</h4>
+                <p  style="color: white;">Phone<br><spn style="color: gray; text-decoration: none;">+121 098 8907 9987</spn></p>
+                <p  style="color: white;">Email<br><span style="color: gray; text-decoration: none;">montana@7u8.com</span></p>
+                <p  style="color: white;">Location<br><span style="color: gray; text-decoration: none;">Angostura, Argentina</span></p>
+              </div>
+
+                 <div class="col-lg-3"  style="margin-top: 40px;">
+                     <h4 style="color: white; margin-bottom: 30px; margin-top: 30px;">SOCIAL INFO</h4>
+                     <p style="color: gray;">An activity through which collective human actions organize knowledge."[1] It is the creation and processing of information by a group of people.</p><br>
+                     <p style="color: white;">Catch on Social</p>
+                     <a href="https://www.facebook.com/people/Montana-Resort-Official/61570410721121/"><img src="https://cdn-icons-png.flaticon.com/128/145/145802.png" height="35px"></a>
+                      <a href="https://x.com/montana_resort"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670151.png" height="35px"></a>
+                       <a href="https://www.instagram.com/montanaresortofficial/"><img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png" height="35px"></a>
+                       <a href="https://www.agoda.com/en-in/montana-resort/hotel/puncak-id.html?msockid=02fe117e22d2675d2682043123d4660e&cid=-42&ds=m3aGteprVJmqPeHJ"> <img src="https://cdn-icons-png.flaticon.com/128/179/179326.png" height="35px"></a>
+                 </div>
+
+    </div>
+    </div>
+</div>
+</div>
+
+
+
+<!--footer 2-->
+<div class="container-fluid text-center p-2 pb-2 pt-4 bg-dark border-bottom border-body" data-bs-theme="light-dark">
+    <p style="color: white; margin-top: -10px;">Copyright ©2025 All rights reserved | This template is made with by &#9829;</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
