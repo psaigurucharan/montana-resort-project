@@ -8,124 +8,78 @@
 body{overflow-x: hidden; font-family: Arial;
       }
 
-
-
-
-.center{display: flex; line-height: 0px; text-align: center; margin-top: -15px; width: fit-content;padding-right: 400px;}
-
-
-@media screen and (max-width:1662px) {
-    .center{margin-left:0px;padding-right: 180px;}
+       /* NAVBAR SECTION */
+       .navtop{
+background: linear-gradient(to left, red, blue, green);
+color:#fff;
 }
 
-@media screen and (max-width:1400px) {
-    .center{margin-left:0px;padding-left: 120px;}
+.logo{
+height:50px;
+width:80px;
+border-radius:10px;
 }
 
-
-@media screen and (max-width:1300px) {
-    .center{margin-left:40px;padding-right: 0px;}
+.center-logo{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin:auto;
 }
 
-
-
-
-
-@media screen and (min-width:990px) {
-    .center{margin-right: 70px;}
-    
+.center-logo h1{
+font-size:28px;
+margin:0;
 }
 
-
-@media screen and (max-width:1160px) {
-    .center{margin-left: 30px;}
-    
+.center-logo p{
+margin:0;
+font-size:14px;
 }
 
-
-@media screen and (max-width:1100px) {
-    .center{padding-left: -10px; margin-right: 50px;}
-    .center h1{font-size: x-large; }
-    .center img{height: 40px;}
-    
+.leaf{
+height:50px;
 }
 
-@media screen and (max-width:1084px) {
-    .center{margin-left:-130px;margin-right: 10px;}
+.newsletter{
+margin-left:auto;
 }
 
-
-@media screen and (max-width:991.20px) {
-    .center{margin-left:330px;}
-    
+.newsletter input{
+max-width:150px;
 }
 
+/* Mobile Responsive */
 
-@media screen and (max-width:800px) {
-    .center{margin-left: 220px;}
-    
+@media (max-width:991px){
+
+.center-logo{
+margin-top:15px;
+margin-bottom:15px;
 }
 
-
-@media screen and (max-width:650px) {
-    .center{margin-left: 150px;}
-    
+.newsletter{
+margin-top:10px;
 }
 
-
-@media screen and (max-width:500px) {
-    .center{margin-left: 90px;}
-    
-     
-    
 }
 
+@media (max-width:576px){
 
-@media screen and (max-width:400px) {
-    .center{padding-left: 30px;
-    margin-top: -10px;
-margin-bottom: 10px;}
-  
-     
-    
+.center-logo h1{
+font-size:22px;
 }
 
-
-@media screen and (max-width:412px) {
-    .center{margin-left: 50px;
-    margin-top: -10px;
-margin-bottom: 10px;}
-  
-     
-    
+.leaf{
+height:40px;
 }
 
-
-@media screen and (max-width:370px) {
-    .center{margin-left: 15px;}
-   
-    
-    
-}
- 
-
-@media screen and (max-width:360px) {
-    .center{margin-left: 30px;}
-   
-    
-    
+.newsletter input{
+max-width:120px;
 }
 
-
-
-@media screen and (max-width:320px) {
-    .center{margin-left: 16px;}
-    .sign{width: fit-content;}
-   
-    
 }
-
-
 
 
 
